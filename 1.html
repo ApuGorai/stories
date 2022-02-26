@@ -13,6 +13,7 @@
         src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
 <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
+ <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>  
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400" rel="stylesheet">
     <style amp-custom>
       amp-story {
@@ -249,5 +250,9 @@
    </script>
   </amp-story-auto-ads>
     </amp-story>
+    <amp-install-serviceworker src="/sw.js"
+           data-iframe-src="1.html"
+           layout="nodisplay">
+</amp-install-serviceworker>
   </body>
 </html>
