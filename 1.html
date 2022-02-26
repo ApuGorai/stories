@@ -5,7 +5,7 @@
     <title>Marvel's Top Movies</title>
     <script type='text/javascript'>
  if('serviceWorker' in navigator) {
-   navigator.serviceWorker.register('./sw.js');
+   navigator.serviceWorker.register('/sw.js');
  };
 </script>
     <link rel="canonical" href="#">
@@ -256,7 +256,7 @@
   </amp-story-auto-ads>
     </amp-story>
     <amp-install-serviceworker src="/sw.js"
-           data-iframe-src="1.html"
+           data-iframe-src="/1.html"
            layout="nodisplay">
 </amp-install-serviceworker>
   </body>
