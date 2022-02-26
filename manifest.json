@@ -3,12 +3,12 @@
 "name": "3schools stories",
 "icons": [
 {
-"src": "./android-icon-192x192.png",
+"src": "/android-icon-192x192.png",
 "type": "image/png",
 "sizes": "192x192"
 },
 {
-"src": "./android-icon-512x512.png",
+"src": "/android-icon-512x512.png",
 "type": "image/png",
 "sizes": "512x512"
 }
@@ -16,6 +16,6 @@
 "start_url": "/index.html",
 "background_color": "#222325",
 "display": "standalone",
-"scope": "/",
+"scope": "/index.html",
 "theme_color": "#222325"
 }
