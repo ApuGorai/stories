@@ -3,7 +3,7 @@ var cacheName = 'cache-v98';
 var files = [
     './',
     './index.html',
-    './css/styles.css',
+    './style.css',
     '/js/notify.js',
     '/js/app.js',
     '/js/sync.js',
@@ -12,16 +12,13 @@ var files = [
     './manifest.json',
      'sw.js',
       'index.js',
-      'install.html',
-      'search.html',
       '404.html',
-      'profile.html',
+      '2.html',
       'serviceWorker.js',
-    './images/icon_16.png',
-    './images/icon_32.png',
-    './images/icon_192.png',
-    './images/icon_256.png',
-    './images/icon_512.png'
+    './android-icon-192x192.png',
+    './android-icon-512x512.png',
+    './logo.png'
+    
     ];
 
 
