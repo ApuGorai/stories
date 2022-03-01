@@ -9,8 +9,8 @@ self.addEventListener('install', (e) => {
      'sw.js',
       'index.js',
       '404.html',
-      './images/icon_192.png',
-     './images/icon_512.png'
+      'android-icon-192x192.png',
+     'android-icon-512x512.png'
     ])),
   );
 });
