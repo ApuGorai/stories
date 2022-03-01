@@ -1,19 +1,17 @@
-
-
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open('webstories').then((cache) => cache.addAll([
       '/',
-    './index.html',
-    'manifest.webmanifest',
+    'index.html',
+    'style.css',
+     'manifest.webmanifest',
      'sw.js',
       'index.js',
-      'style.css',
       '404.html',
       'logo.png',
-      'android-icon-192x192.png',
-     'android-icon-512x512.png'
-    ])),
+    'android-icon-192x192.png',
+    'android-icon-512x512.png'
+     ])),
   );
 });
 
@@ -23,3 +21,5 @@ self.addEventListener('fetch', (e) => {
     caches.match(e.request).then((response) => response || fetch(e.request)),
   );
 });
+
+
