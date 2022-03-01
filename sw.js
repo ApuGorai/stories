@@ -8,7 +8,9 @@ self.addEventListener('install', (e) => {
     'manifest.webmanifest',
      'sw.js',
       'index.js',
+      'style.css',
       '404.html',
+      'logo.png',
       'android-icon-192x192.png',
      'android-icon-512x512.png'
     ])),
