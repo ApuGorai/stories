@@ -1,0 +1,19 @@
+{
+  "background_color": "#63e9f2",
+  "theme_color": "#778af7",
+  "version":"1.2.3",
+  "description": "Web Stories by 3schools.in",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "android-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "web stories",
+  "version":"1.2.3",
+  "short_name": "stories",
+  "start_url": "index.html"
+}
