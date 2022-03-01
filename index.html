@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Stories 3schools</title>
+  <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
   <link rel="canonical" href="https://stories.3schools.in/">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
  <meta content='#005af0' name='theme-color'/>
@@ -256,5 +257,9 @@
       </li>
     </ul>
     <div>
+   <amp-install-serviceworker src="/sw.js"
+           data-iframe-src="install-sw.html"
+           layout="nodisplay">
+</amp-install-serviceworker>   
 </body>
 </html>
