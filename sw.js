@@ -5,7 +5,7 @@ regexp: /\.(png|jpg)/,
 cachingStrategy: 'CACHE_FIRST'
 }],
 offlinePageOptions: {
-url: '/stories/offline.html',
+url: '/offline.html',
 assets: []
 }
 });
