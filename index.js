@@ -1,3 +1,4 @@
+
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
     .register('sw.js')
@@ -15,8 +16,7 @@ window.addEventListener('beforeinstallprompt', (e) => {
     deferredPrompt.prompt();
     deferredPrompt.userChoice.then((choiceResult) => {
       if (choiceResult.outcome === 'accepted') {
-        console.log('Users download
-');
+        console.log('User Download ');
       } else {
         console.log('User will download');
       }
