@@ -1,21 +1,36 @@
-
-
 {
-  "background_color": "#63e9f2",
+"background_color": "#63e9f2",
+
   "theme_color": "#778af7",
+
   "version":"1.2.3",
-  "description": "Best web stories for you",
+
+  "description": "3schools web stories",
+
   "display": "standalone",
+
   "orientation": "portrait",
+
   "icons": [
+
     {
+
       "src": "android-icon-192x192.png",
+
       "sizes": "192x192",
+
       "type": "image/png"
+
     }
+
   ],
+
   "name": "Web Stories",
+
   "version":"1.2.3",
+
   "short_name": "Stories",
+
   "start_url": "index.html"
+
 }
