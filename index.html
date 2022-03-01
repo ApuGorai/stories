@@ -24,11 +24,25 @@
 <link href='/img/favicon-32x32.png' rel='icon' sizes='32x32' type='image/png' />
 <link href='/img/favicon-96x96.png' rel='icon' sizes='96x96' type='image/png' />
 <link href='/img/favicon-16x16.png' rel='icon' sizes='16x16' type='image/png' />
-
-     <link rel="manifest" href="manifest.webmanifest">
+<link rel="manifest" href="manifest.webmanifest">
     <link rel="stylesheet" href="./style.css" />
     <script src="index.js" defer></script>
   <link href='/logo.png' rel='icon' sizes='32x32' type='image/png' />
+  <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-messaging.js"></script>
+      <script>
+      
+      var config = {
+    apiKey: "AIzaSyBhVy6PVaIs2MW59k4eH5ikqyO2qWIEri4",
+    authDomain: "apug-12.firebaseapp.com",
+    projectId: "apug-12",
+    storageBucket: "apug-12.appspot.com",
+    messagingSenderId: "298850249356",
+    appId: "1:298850249356:web:1db9362d68aeffa1c169a9"
+ 
+      };
+      firebase.initializeApp(config);
+    </script>
   </head>
 <body>
 <input class='drop-menu hidden' id='drop-menu' type='checkbox' />
