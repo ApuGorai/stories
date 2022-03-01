@@ -3,7 +3,7 @@
     * Registering Service Worker & listening to it's update.
     */
     if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register('./serviceWorker.js', { scope: "./" })
+      navigator.serviceWorker.register('./sw.js', { scope: "./" })
       .then(function(registration) {
         console.info('Service worker registered');
         checkForUpdate(registration);
